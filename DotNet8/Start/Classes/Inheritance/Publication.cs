@@ -24,7 +24,7 @@ namespace Inheritance
         public string Name {
             // return the name
             get { return _name; }
-            
+
             // use the setter to validate the new property value
             set {
                 if (value == "") {
@@ -36,6 +36,7 @@ namespace Inheritance
 
         // TODO: use the "virtual" keyword to indicate that a method
         // can be overridden by subclasses to customize behavior
-
-    }
+        public virtual string GetDescription() {
+            return $"{Name}, {PageCount} pages";
+        }}
 }
