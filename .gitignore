@@ -482,3 +482,6 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+# Other Personal or unspecified files such as notes, etc
+.Notes.md
