@@ -485,3 +485,6 @@ $RECYCLE.BIN/
 
 # Other Personal or unspecified files such as notes, etc
 .Notes.md
+*note*
+*Note*
+notes/
